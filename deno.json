@@ -1,0 +1,11 @@
+{
+  "tasks": {
+    "dev": "deno run -A --watch main.ts --A"
+  },
+  "imports": {
+    "@std/assert": "jsr:@std/assert@1",
+    "cors": "npm:cors@^2.8.5",
+    "express": "npm:express@^4.21.1",
+    "socket.io": "npm:socket.io@^4.8.1"
+  }
+}
